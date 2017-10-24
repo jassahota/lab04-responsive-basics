@@ -1,4 +1,40 @@
-/* GLOBAL AND MOBILE STYLES FIRST */
+/* GLOBAL STYLES */
+
+body {
+  margin:0;
+  padding:0;
+  background: #456;
+}
+header {
+  background: #ccc;
+  color: #444;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 1em;
+}
+h2 {
+  font-size: 1.5em;
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #eee;
+  text-align: center;
+  padding: 2px;
+}
+section {
+  font-size: 1em;
+  background: #888;
+  width: 22%;
+  margin: 1em 1% 1em 1%;
+  display: inline-block;
+}
+section:hover {
+  background: #666;
+}
 
 /*
   - this applies to any screen sizes under 500px
@@ -17,6 +53,10 @@
     - decrease width of sections
     - add `display: inline-block;` so that sections will float next to each other
   */
+  body {
+  background: #420;
+}
+  
 }
 /* END FIRST BREAKPOINT */
 
@@ -29,5 +69,8 @@
     - further decrease size of sections
     - increase size of headings and global fonts
   */
+  body {
+  background: #842;
+}
 }
 /* END SECOND BREAKPOINT */
